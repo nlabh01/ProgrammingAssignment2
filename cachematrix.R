@@ -6,6 +6,7 @@
 ## and its inverse.
 
 
+
 ## Function to initialize the matrix
 makeCacheMatrix <- function(x = matrix()) {
         ## initialize the matrix inverse
@@ -30,6 +31,7 @@ makeCacheMatrix <- function(x = matrix()) {
                 setinverse = setinverse,
                 getinverse = getinverse)
 }
+
 
 
 ## set the matrix; then solve and cache the inverse
